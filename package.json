@@ -1,0 +1,27 @@
+{
+  "name": "language",
+  "version": "0.1.0",
+  "description": "natural language processing service",
+  "main": "index.js",
+  "config": {
+    "key": "lang"
+  },
+  "scripts": {
+    "test": "NODE_ENV=development node ."
+  },
+  "author": "Vitor Cortez <vitor.a.cortez@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cote": "^1.0.0",
+    "franc": "^5.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vekat/pt-language-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vekat/pt-language-service/issues"
+  },
+  "homepage": "https://github.com/vekat/pt-language-service#readme"
+}
