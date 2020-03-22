@@ -1,11 +1,11 @@
-const franc = require('franc')
 const { Responder } = require('cote')
 
+const { guessLanguage } = require('./lib')
+
 const service = new Responder({
-  name: `[${process.env.npm_package_name} service]`,
+  name: `[${process.env.npm_package_name}] service`,
 })
 
 service.on('guess', ({ query }) => {
-  const res = franc(query, { ignore: ['glg'] })
-  return Promise.resolve(res)
+  return Promise.resolve(guessLanguage(query)[0])
 })
