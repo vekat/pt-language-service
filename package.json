@@ -13,7 +13,8 @@
   "license": "MIT",
   "dependencies": {
     "cote": "^1.0.0",
-    "franc": "^5.0.0"
+    "franc": "^5.0.0",
+    "node-nlp": "^4.2.1"
   },
   "devDependencies": {},
   "repository": {
